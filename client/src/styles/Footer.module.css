@@ -1,0 +1,19 @@
+.footer {
+  padding: 10px;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+  margin: 15px;
+  text-align: center;
+}
+
+.footer__icon {
+  display: inline-block;
+  vertical-align: top;
+  width: 20px;
+  height: 20px;
+}
+
+.footer__icon svg {
+  width: 20px;
+  height: 20px;
+  fill: #03a9f4;
+}

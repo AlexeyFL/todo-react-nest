@@ -1,0 +1,13 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.main {
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+  padding: 10px;
+  margin: 15px;
+  flex-basis: 100%;
+}

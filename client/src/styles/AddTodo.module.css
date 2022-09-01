@@ -1,0 +1,42 @@
+.add-todo {
+  max-width: 350px;
+  margin: 0 auto 20px;
+}
+
+.add-todo__input {
+  box-shadow: var(--input-shadow);
+  height: 40px;
+  border-radius: 50px;
+  padding: 10px 10px 10px 20px;
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+  color: var(--input-color);
+  margin-bottom: 15px;
+}
+
+.add-todo__input::placeholder {
+  color: var(--input-color);
+}
+
+.add-todo__input:focus {
+  outline: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.add-todo__btn {
+  color: white;
+  background: #1da1f2;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 100%;
+  transition: box-shadow 0.3s;
+}
+
+.add-todo__btn:hover {
+  box-shadow: none;
+}
