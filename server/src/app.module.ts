@@ -15,11 +15,11 @@ import { TaskModule } from './task/task.module';
     ConfigModule.forRoot(),
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'localhost',
+      host: process.env.HOST,
       port: 5432,
       username: process.env.DB_USER,
       password: process.env.DB_PASSWORD,
-      database: process.env.DB,
+      database: process.env.DATABASE_URL,
       entities: [UserEntity, TaskEntity],
       migrations: [join(__dirname, 'migrations/*{.ts, .js}')],
       synchronize: true,
